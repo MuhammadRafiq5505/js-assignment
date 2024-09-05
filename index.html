@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>first assignments of javascript </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+
+    <script>
+
+        var english = Number(prompt("Enter your english marks out of 100"))
+        while(english>100){
+            alert("Please Enter marks under 100")
+            var english = Number(prompt("Enter your english marks out of 100"))
+        }
+        var maths = Number(prompt("Enter your english marks out of 100"))
+        while(maths>100){
+            alert("Please Enter marks under 100")
+            var maths = Number(prompt("Enter your english marks out of 100"))
+        }
+        var physics =Number( prompt("Enter your physics marks out of 100"))
+        while(physics>100){
+            alert("Please Enter marks under 100")
+            var physics = Number(prompt("Enter your physics marks out of 100"))
+        }
+        var chemistry = Number(prompt("Enter your chemistry marks out of 100"))
+        while(chemistry>100){
+            alert("Please Enter marks under 100")
+            var chemistry = Number(prompt("Enter your chemistry marks out of 100"))
+        }
+
+        var totalMarks = english + chemistry + physics + maths;
+        var perc = totalMarks/400 * 100;
+        alert("your English mark is : " + english +
+              "\nyour maths mark is : " + maths +
+              "\nyour physics mark is : " + physics +
+              "\nyour chemistry mark is : " + chemistry +
+              "\nyour Total mark is : " + totalMarks +
+              "\nyour Percentage  is : " + english +"%"
+
+        )
+    </script>
+</body>
+</html>
